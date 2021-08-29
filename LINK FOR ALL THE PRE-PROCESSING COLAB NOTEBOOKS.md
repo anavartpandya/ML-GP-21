@@ -12,13 +12,13 @@ Link: [clickhere](https://colab.research.google.com/drive/1RxSPhKid7Bqes8xZ8y8CL
 
 Step 2: RatedMatrix generation for each cluster:
 
-Based on the clusters formed, unique rating matrices were formed for each cluster group where each matrix contained the ratings given by a user to a movie present in that particular cluster group. These was done using numpy library functions. 
+Based on the clusters formed, unique rating matrix was formed for each cluster group where each matrix contained the ratings given by a user to a movie present in that particular cluster group. These was done using numpy library functions. 
 
 Link: [clickhere](https://colab.research.google.com/drive/1rNL9N_03PBIDJPtrLDC-LovmGb_VglJL?usp=sharing)
 
 
 Step 3: SVD DataMatrix for each cluster:
 
-SVD (singular value decomposition) algorithm was used to produce SVD matrix for each cluster group. This matrix contain the data that how much relevant a genre is to a movie which is calculated based on the ratings given by users. These matrices are used in the final notebook where cosine similarity will is applied to the data of this matrix and top similar movies will be recommended. 
+SVD (singular value decomposition) algorithm was used to produce SVD matrix for each cluster group. This matrix contains the data that how much relevant a genre is to a movie which is calculated based on the ratings given by users. These matrices are used in the final notebook where cosine similarity will is applied to the data of this matrix and top similar movies will be recommended. 
 
 Link: [clickhere](https://colab.research.google.com/drive/1hLy2f-yIsJxSYkkLQoUpxnfWsvEs96pj?usp=sharing)
